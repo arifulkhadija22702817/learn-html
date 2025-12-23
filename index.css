@@ -13,6 +13,10 @@
 }
 
 
+.secondary-bg {
+    background-color: #fff8f3;
+}
+
 /* nav style */
 
 
@@ -21,7 +25,6 @@ nav {
     justify-content: space-between;
     margin: 50px 200px;
     align-items: center;
-    position: sticky;
 }
 
 
@@ -104,11 +107,57 @@ nav ul li a {
 }
 
 .photo {
-    margin: 10;
+    margin-right: 100;
+    width: 580px;
 }
 
 .download-cv {
     display: flex;
     gap: 50px;
     align-items: center;
+}
+
+
+/* main style */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+/* sectopm */
+
+
+.p-tag {
+    color: #474747;
+    font-size: 25px;
+}
+
+.about {
+    padding: 130px 150px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+
+
+.section-title {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+.paragraph {
+    font-weight: bold;
+    font-size: 10px;
 }
