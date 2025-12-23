@@ -125,6 +125,9 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin: 80px 0px;
+}
 
 
 /* sectopm */
@@ -133,13 +136,15 @@ main {
 .p-tag {
     color: #474747;
     font-size: 25px;
+    text-align: center;
+    padding: 20px;
 }
 
 .about {
-    padding: 130px 150px;
+    padding: 80px 100px;
     border-radius: 5px;
     text-align: center;
-    margin-top: 130px;
+
 
 }
 
@@ -147,6 +152,8 @@ main {
 .section-title {
     font-weight: bold;
     font-size: 50px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    ;
 }
 
 .about-items {
@@ -160,4 +167,27 @@ main {
 .paragraph {
     font-weight: bold;
     font-size: 10px;
+}
+
+.secton-description {
+    text-align: center;
+}
+
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+
+.skills {
+    background-color: #ebd9cd;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.experience {
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
