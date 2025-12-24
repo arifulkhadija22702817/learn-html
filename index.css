@@ -257,3 +257,85 @@ footer textarea {
     font-size: 30px;
     font-weight: bold;
 }
+
+
+
+
+
+/* responsive */
+
+@media (max-width: 768px) {
+
+    /* NAV */
+    nav {
+        flex-direction: column;
+        margin: 20px;
+        gap: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* BANNER */
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-content {
+        margin: 20px;
+    }
+
+    .banner-describtion {
+        margin-right: 0;
+        font-size: 18px;
+    }
+
+    .photo {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .download-cv {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* ABOUT */
+    .about {
+        padding: 40px 20px;
+    }
+
+    .about-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* SKILLS */
+    .skill-container {
+        flex-direction: column;
+    }
+
+    /* RESUME */
+    .resume-container {
+        flex-direction: column;
+    }
+
+    /* FOOTER (MOST IMPORTANT) */
+    footer {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 40px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    footer input,
+    footer textarea {
+        width: 100%;
+    }
+}
